@@ -1,0 +1,390 @@
+#outer-box {
+  height: 600px;
+  width: 1200px;
+  position: relative;
+  background-color: white;
+
+}
+
+#blue-rectangle {
+  height: 322px;
+  width: 500px;
+  position: absolute;
+  background-color: blue;
+}
+
+.red {
+  height: 46px;
+  width: 100%;
+  background-color: red;
+}
+
+.white {
+  height: 46px;
+  width: 100%;
+  background-color: white;
+}
+
+.five-pointed-star {
+  --star-color: white;
+  font-size: 1em;
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-right: 1em solid transparent;
+  border-bottom: 0.7em solid var(--star-color);
+  border-left: 1em solid transparent;
+  transform: rotate(35deg);
+}
+
+.five-pointed-star:before {
+  border-bottom: 0.8em solid var(--star-color);
+  border-left: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -0.45em;
+  left: -0.65em;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+
+.five-pointed-star:after {
+  position: absolute;
+  display: block;
+  top: 0.03em;
+  left: -1.05em;
+  width: 0;
+  height: 0;
+  border-right: 1em solid transparent;
+  border-bottom: 0.7em solid var(--star-color);
+  border-left: 1em solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
+
+/*stars*/
+
+/*first row*/
+#one {
+  position: absolute;
+  top: 1rem;
+  left: .5rem;
+}
+
+#two {
+  position: absolute;
+  top: 1rem;
+  left: 6rem;
+}
+
+#three {
+  position: absolute;
+  top: 1rem;
+  left: 11.5rem;
+}
+
+#four {
+  position: absolute;
+  top: 1rem;
+  left: 17rem;
+}
+
+#five {
+  position: absolute;
+  top: 1rem;
+  left: 23rem;
+}
+
+#six {
+  position: absolute;
+  top: 1rem;
+  left: 28rem;
+}
+
+
+/*second row*/
+#seven {
+  position: absolute;
+  top: 3rem;
+  left: 3.25rem;
+}
+
+#eight {
+  position: absolute;
+  top: 3rem;
+  left: 9rem;
+}
+
+#nine {
+  position: absolute;
+  top: 3rem;
+  left: 14.25rem;
+}
+
+#ten {
+  position: absolute;
+  top: 3rem;
+  left: 19.75rem;
+}
+
+#eleven {
+  position: absolute;
+  top: 3rem;
+  left: 25.75rem;
+}
+
+
+/*third row*/
+#twelve {
+  position: absolute;
+  top: 5rem;
+  left: .5rem;
+}
+
+#thirteen {
+  position: absolute;
+  top: 5rem;
+  left: 6rem;
+}
+
+#fourteen {
+  position: absolute;
+  top: 5rem;
+  left: 11.5rem;
+}
+
+#fifteen {
+  position: absolute;
+  top: 5rem;
+  left: 17rem;
+}
+
+#sixteen {
+  position: absolute;
+  top: 5rem;
+  left: 23rem;
+}
+
+#seventeen {
+  position: absolute;
+  top: 5rem;
+  left: 28rem;
+}
+
+
+/*fourth row*/
+#eighteen {
+  position: absolute;
+  top: 7rem;
+  left: 3.25rem;
+}
+
+#nineteen {
+  position: absolute;
+  top: 7rem;
+  left: 9rem;
+}
+
+#twenty {
+  position: absolute;
+  top: 7rem;
+  left: 14.25rem;
+}
+
+#twenty-one {
+  position: absolute;
+  top: 7rem;
+  left: 19.75rem;
+}
+
+#twenty-two {
+  position: absolute;
+  top: 7rem;
+  left: 25.75rem;
+}
+
+
+/*fifth row*/
+#twenty-three {
+  position: absolute;
+  top: 9rem;
+  left: .5rem;
+}
+
+#twenty-four {
+  position: absolute;
+  top: 9rem;
+  left: 6rem;
+}
+
+#twenty-five {
+  position: absolute;
+  top: 9rem;
+  left: 11.5rem;
+}
+
+#twenty-six {
+  position: absolute;
+  top: 9rem;
+  left: 17rem;
+}
+
+#twenty-seven {
+  position: absolute;
+  top: 9rem;
+  left: 23rem;
+}
+
+#twenty-eight {
+  position: absolute;
+  top: 9rem;
+  left: 28rem;
+}
+
+
+/*sixth row*/
+#twenty-nine {
+  position: absolute;
+  top: 11rem;
+  left: 3.25rem;
+}
+
+#thirty {
+  position: absolute;
+  top: 11rem;
+  left: 9rem;
+}
+
+#thirty-one {
+  position: absolute;
+  top: 11rem;
+  left: 14.25rem;
+}
+
+#thirty-two {
+  position: absolute;
+  top: 11rem;
+  left: 19.75rem;
+}
+
+#thirty-three {
+  position: absolute;
+  top: 11rem;
+  left: 25.75rem;
+}
+
+
+
+/*seventh row*/
+#thirty-four {
+  position: absolute;
+  top: 13rem;
+  left: .5rem;
+}
+
+#thirty-five {
+  position: absolute;
+  top: 13rem;
+  left: 6rem;
+}
+
+#thirty-six {
+  position: absolute;
+  top: 13rem;
+  left: 11.5rem;
+}
+
+#thirty-seven {
+  position: absolute;
+  top: 13rem;
+  left: 17rem;
+}
+
+#thirty-eight {
+  position: absolute;
+  top: 13rem;
+  left: 23rem;
+}
+
+#thirty-nine {
+  position: absolute;
+  top: 13rem;
+  left: 28rem;
+}
+
+
+/*eighth row*/
+#forty {
+  position: absolute;
+  top: 15rem;
+  left: 3.25rem;
+}
+
+#forty-one {
+  position: absolute;
+  top: 15rem;
+  left: 9rem;
+}
+
+#forty-two {
+  position: absolute;
+  top: 15rem;
+  left: 14.25rem;
+}
+
+#forty-three {
+  position: absolute;
+  top: 15rem;
+  left: 19.75rem;
+}
+
+#forty-four {
+  position: absolute;
+  top: 15rem;
+  left: 25.75rem;
+}
+
+
+
+/*ninth row*/
+#forty-five {
+  position: absolute;
+  top: 17rem;
+  left: .5rem;
+}
+
+#forty-six {
+  position: absolute;
+  top: 17rem;
+  left: 6rem;
+}
+
+#forty-seven {
+  position: absolute;
+  top: 17rem;
+  left: 11.5rem;
+}
+
+#forty-eight {
+  position: absolute;
+  top: 17rem;
+  left: 17rem;
+}
+
+#forty-nine {
+  position: absolute;
+  top: 17rem;
+  left: 23rem;
+}
+
+#fifty {
+  position: absolute;
+  top: 17rem;
+  left: 28rem;
+}
+
+
